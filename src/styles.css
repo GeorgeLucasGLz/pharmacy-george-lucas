@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#cta-btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 5px rgb(97, 97, 97);
+    background: rgb(167, 1, 0);
+    background: linear-gradient(42deg, rgba(167, 1, 0, 1) 0%, rgba(251, 38, 31, 1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#cta-section {
+
+    background-image: url(./assets/banner-final.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: auto;
+    padding: 100px 0;
+    position: relative;
+}
+
+#cta-info {
+    text-align: start;
+    padding: 0 10px;
+    text-shadow: 1px 2px 5px rgb(22, 22, 22);
+}
+
+#banner2 {
+    object-position: center;
+}
+
+#categories {
+    padding: 100px 20px;
+    display: flex;
+}
+
+#categories-card {
+
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#categories-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#categories-card h4 {
+    color: #016ac7;
+}
+
+
+#img-categorias {
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+#title-card {
+    font-size: 1.5em;
+    width: 100%;
+
+}
+
+#destaques {
+    padding: 30px 20px;
+}
+
+#categories h3,
+#destaques h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #0086ff;
+}
+
+#btn-destaques {
+    width: 50%;
+    gap: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    font-size: 0.9em;
+}
+
+#btn-categories {
+    width: 10vw;
+    padding: 5px 3px;
+    font-size: 1vw;
+}
+
+#categories-list {
+    padding: 0 0 20px;
+    color: #313131;
+    font-weight: 600;
+}
+
+#categories-list li {
+    font-size: 1em;
+}
+
+#destaque-card {
+    justify-content: center;
+    align-items: center;
+}
+
+#destaque-card span {
+    color: rgb(8, 182, 144);
+}
+
+
+#destaque-card h4 {
+    color: rgb(0, 65, 185);
+}
+
+#destaque-img {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    object-position: center;
+}
+
+#title-timer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0086ff;
+}
+
+.timer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.countdown-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    justify-content: center;
+    gap: 10px;
+    /* Espaço entre as caixas */
+}
+
+.card-promotion ul li {
+    display: flex;
+    gap: 5px;
+
+}
+
+.check-icon {
+    color: rgb(36, 214, 161);
+    width: 1em;
+}
+
+.countdown-box {
+    background-color: #0682f0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 110px;
+    /* Largura das caixas */
+}
+
+.countdown-box span {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.countdown-box p {
+    margin: 0;
+    font-size: 1rem;
+    color: #52ffb7;
+}
+
+.promotion-section {
+    display: flex;
+    gap: 30px;
+    padding: 0 30px 50px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card-promotion {
+    justify-content: space-evenly;
+    display: flex;
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 9px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.sale-box {
+    z-index: 1;
+    background-color: #2bd42b;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 15px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+
+}
+
+.info-promotion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.info-promotion h4 {
+    color: rgb(0, 65, 185);
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#before-price {
+    text-decoration: line-through;
+}
+
+#after-price {
+    color: #03c272;
+    font-weight: 600;
+}
+
+.card-promotion button {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 0.8em;
+    color: #14173d;
+    background-color: rgb(206, 222, 243);
+    font-weight: 600;
+}
+
+.price-box {
+    display: flex;
+    gap: 10px;
+}
+
+.card-promotion img {
+    width: 15em;
+    height: auto;
+
+}
+
+
+@media (max-width: 1300px) {
+    #btn-destaques {
+        width: 15em;
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    #categories-card {
+        width: 30em;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    #btn-destaques {
+        width: 14em;
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 1023px) {
+    #categories-card {
+        width: 80vw;
+    }
+
+    #btn-categories {
+        width: 20vw;
+        padding: 5px 3px;
+        font-size: 2vw;
+    }
+
+    #btn-destaques {
+        gap: 0;
+        width: 12em;
+        font-size: 0.6em;
+    }
+
+    #navbar ul li a {
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 1180px) {
+    .promotion-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-promotion {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width: 850px) {
+
+    #navbar ul li a {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 830px) {
+
+    #cta-section {
+        background-image: none;
+        background: transparent;
+        background-color: transparent;
+        height: auto;
+        color: #20a5f1;
+    }
+
+    #cta-info {
+        text-shadow: none;
+        text-align: center;
+    }
+
+    #cta-btn{
+        background-image: linear-gradient(to right bottom, #c4eaf4, #8ad6f6, #4dbffc, #00a4ff, #0086ff);
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    #menu-burger {
+
+        display: block;
+    }
+
+    #menu-burger-list ul li a {
+        font-weight: 700;
+        letter-spacing: .1em;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+
+    .card-promotion {
+        width: 90%;
+    }
+
+    #footer {
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+
+        img {
+            width: 100px;
+            margin: 0 auto;
+        }
+    }
+
+    #btn-destaques {
+        gap: 5px;
+        width: 50vw;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 700px) {
+
+    #btn-categories {
+        width: 25vw;
+        padding: 7px 3px;
+        font-size: 3vw;
+    }
+
+
+    #categories {
+        padding: 30px 20px;
+    }
+
+    #services {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .card-promotion {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card-promotion button {
+        font-size: 1em;
+    }
+
+    .card-promotion img {
+        width: 100%;
+    }
+
+    .info-promotion {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .info-promotion h4 {
+        font-size: 1.5rem;
+    }
+
+    .info-promotion ul {
+        padding: 10px 0;
+    }
+
+    .info-promotion ul li {
+        font-size: 1em;
+        padding: 10px 0;
+    }
+
+    .price-box {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #img-categorias {
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    #cartIcon{
+        display: flex;
+    }
+
+    .icon-header {
+        display: none;
+    }
+
+    #btn-destaques {
+        width: 50vw;
+        font-size: 0.7em;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    #btn-destaques {
+        width: 40vw;
+        font-size: 10px;
+    }
+
+    .card-promotion button {
+        font-size: 0.75em;
+    }
+
+    .info-promotion h4 {
+        font-size: 1rem;
+    }
+
+    .info-promotion ul li {
+        font-size: 0.8em;
+    }
+
+    .price-box {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 269px) {
+    .countdown-box {
+
+        width: 90%;
+    }
+}
