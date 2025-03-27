@@ -1,6 +1,6 @@
 import React, { createContext, useState, useContext } from 'react';
 
-// Criando o contexto do carrinho
+
 const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {

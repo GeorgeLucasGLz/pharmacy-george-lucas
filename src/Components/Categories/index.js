@@ -8,7 +8,7 @@ const Categories = forwardRef((props, ref) => {
 
 
     return (
-        //  className="grid grid-cols-1 md:grid-cols-3 gap-8"
+       
         <>
             <section className="py-16" id='categories' ref={ref}>
                 <div className="container mx-auto">
